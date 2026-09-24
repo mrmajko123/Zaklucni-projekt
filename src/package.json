@@ -1,0 +1,7 @@
+{
+  "name": "kiosk-shared",
+  "version": "1.0.0",
+  "description": "Shared code for KioskApp (Android + Electron)",
+  "main": "index.ts",
+  "types": "index.ts"
+}
