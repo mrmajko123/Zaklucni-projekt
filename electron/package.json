@@ -1,5 +1,5 @@
 {
-  "name": "kiosk-app",
+  "name": "fast-order",
   "version": "1.0.0",
   "description": "Electron kiosk application for Windows",
   "main": "main.js",

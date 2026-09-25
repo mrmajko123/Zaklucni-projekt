@@ -2,7 +2,7 @@
 setlocal
 
 echo ===========================================
-echo KioskApp - APK Installer Build Script
+echo Fast Order - APK Installer Build Script
 echo ===========================================
 
 cd /d "%~dp0\android"
@@ -39,7 +39,7 @@ if not exist "app\%storeFile%" (
         -keypass %keyPassword% ^
         -alias %keyAlias% ^
         -keyalg RSA -keysize 2048 -validity 10000 ^
-        -dname "CN=KioskApp, OU=Kiosk, O=Example, L=City, ST=State, C=US"
+        -dname "CN=Fast Order, OU=FastOrder, O=Example, L=City, ST=State, C=US"
     if %ERRORLEVEL% NEQ 0 (
         echo ERROR: Key generation failed. Do you have Java JDK installed?
         exit /b 1

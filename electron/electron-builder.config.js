@@ -1,6 +1,6 @@
 module.exports = {
-  appId: 'com.example.kiosk',
-  productName: 'KioskApp',
+  appId: 'com.example.fastorder',
+  productName: 'Fast Order',
   directories: {
     output: 'dist',
     buildResources: 'build',
@@ -21,8 +21,11 @@ module.exports = {
     allowToChangeInstallationDirectory: true,
     createDesktopShortcut: true,
     createStartMenuShortcut: true,
-    shortcutName: 'KioskApp',
+    shortcutName: 'Fast Order',
     include: 'build/installer.nsh',
     license: 'LICENSE.txt',
+    perMachine: false,
+    deleteAppDataOnUninstall: true,
+    artifactName: 'FastOrder.exe',
   },
 };

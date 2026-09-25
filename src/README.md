@@ -1,4 +1,4 @@
-# KioskApp Shared Resources
+# Fast Order Shared Resources
 
 Shared constants, utilities, and types used by both the Android and Electron builds.
 

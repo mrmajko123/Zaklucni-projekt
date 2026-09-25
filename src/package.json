@@ -1,7 +1,7 @@
 {
-  "name": "kiosk-shared",
+  "name": "fast-order-shared",
   "version": "1.0.0",
-  "description": "Shared code for KioskApp (Android + Electron)",
+  "description": "Shared code for Fast Order (Android + Electron)",
   "main": "index.ts",
   "types": "index.ts"
 }
